@@ -5,9 +5,9 @@ const Irtizatask = () => {
     const phrases = [" Empowering the future ,One Innovator", ", One Creator, One Trailblazer at a Time"];
   const speed = 50;
   return (
-    <div className='flex justify-center  w-full h-100vh banner' >
+    <div className='flex justify-center  w-full h-100vh ' >
      
-        <div className='flex flex-col justify-items-center text-gray-700 text-center items-center m-24 '  >
+        <div className='flex flex-col justify-items-center text-gray-700 text-center items-center m-24 banner'  >
         <p className='text-[18px] font-bold'>
             lets do it hurry
         </p>

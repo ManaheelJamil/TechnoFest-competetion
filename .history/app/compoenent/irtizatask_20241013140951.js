@@ -7,7 +7,7 @@ const Irtizatask = () => {
   return (
     <div className='flex justify-center  w-full h-100vh banner' >
      
-        <div className='flex flex-col justify-items-center text-gray-700 text-center items-center m-24 '  >
+        <div className='flex flex-col justify-items-center text-gray-700 text-center items-center m-24'  >
         <p className='text-[18px] font-bold'>
             lets do it hurry
         </p>

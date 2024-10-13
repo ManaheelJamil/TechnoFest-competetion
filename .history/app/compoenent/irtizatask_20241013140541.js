@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from "framer-motion"
 import TypewriterAnimation from "./typeAnimation"
 const Irtizatask = () => {
     // const text = "Empowering the future, One Innovator, One Creator, One Trailblazer at a Time".split(" ");
@@ -7,11 +8,17 @@ const Irtizatask = () => {
   return (
     <div className='flex justify-center  w-full h-100vh banner' >
      
-        <div className='flex flex-col justify-items-center text-gray-700 text-center items-center m-24 '  >
+        <div className='flex flex-col justify-items-center text-gray-700 text-center items-center m-24'  >
         <p className='text-[18px] font-bold'>
             lets do it hurry
         </p>
-        
+        {/* <p className='text-[36px] font-bold'>
+            Empowering the future,
+            <p className='text-[36px] font-bold'>
+            One Innovator, One Creator, One Trailblazer
+            </p>
+            at a Time
+        </p> */}
         <div className=" md:mx-auto md:mt-8 ">
       <TypewriterAnimation  phrases={phrases} speed={speed} />
     </div>
