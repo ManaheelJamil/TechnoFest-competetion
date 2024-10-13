@@ -7,27 +7,27 @@ import Image from "next/image";
 export default function Footer() {
     return (
         <>
-            <div className="w-full bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% py-10 ">
+            <div className="w-full gradient py-10 ">
                 <div className="lg:w-[50%] lg:mx-auto px-5 ">
                 <Image src="/logo.webp" alt="logo" width={200} height={200} className="mx-auto"/>
                     <p className="lg:text-xl text-sm text-white font-bold text-center ">Empowering innovation, igniting future leaders. Teknofest Pakistan – where technology meets limitless possibilities
                     </p>
                     <div className="flex items-center mt-10 justify-center gap-5">
-                        <div className="w-10 h-10 rounded-full flex flex-col justify-center items-center bg-gray-600">
+                        <div className="w-10 h-10 cursor-pointer rounded-full flex flex-col justify-center items-center bg-gray-600">
                             <ImFacebook className="text-white text-xl " />
                         </div>
-                        <div className="w-10 h-10 rounded-full flex flex-col justify-center items-center bg-gray-600">
+                        <div className="w-10 h-10 cursor-pointer rounded-full flex flex-col justify-center items-center bg-gray-600">
                             <FaInstagram className="text-white text-xl " />
                         </div>
-                        <div className="w-10 h-10 rounded-full flex flex-col justify-center items-center bg-gray-600">
+                        <div className="w-10 h-10 cursor-pointer rounded-full flex flex-col justify-center items-center bg-gray-600">
                             <FaYoutube className="text-white text-xl " />
                         </div>
-                        <div className="w-10 h-10 rounded-full flex flex-col justify-center items-center bg-gray-600">
+                        <div className="w-10 h-10 cursor-pointer rounded-full flex flex-col justify-center items-center bg-gray-600">
                             <FaLinkedin className="text-white text-xl " />
 
                         </div>
                     </div>
-                    <hr className="border border-gray-800 w-full my-10" />
+                    <hr className="border border-gray-300 w-full my-10" />
                     <div>
                         <ul className="flex lg:text-xl text-xs text-white font-bold items-center justify-between space-x-5">
                             <li className=""><Link href="">Home</Link></li>

@@ -15,7 +15,7 @@ export default function Navbar() {
     }
     return (
         <>
-            <div className="bg-blue-900 lg:px-20 sticky  z-40 right-0 left-0 top-0 px-10 mx-auto flex items-center justify-between">
+            <div className="gradient lg:px-20 sticky  z-40 right-0 left-0 top-0 px-10 mx-auto flex items-center justify-between">
                 <Image src="/logo.webp" alt="logo" width={100} height={100} />
                 <div className="lg:block hidden">
                     <ul className="flex items-center space-x-5">

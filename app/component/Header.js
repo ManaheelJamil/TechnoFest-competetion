@@ -5,7 +5,7 @@ import { IoLocationOutline } from "react-icons/io5";
 export default function Header() {
     return (
         <>
-            <div className="banner   py-10 grid lg:grid-cols-2 grid-cols-1 justify-center left-0 right-0 lg:px-10  lg:mx-0 px-5 items-center gap-20">
+            <div className="banner   pb-10 grid lg:grid-cols-2 grid-cols-1 justify-center left-0 right-0 lg:px-10  lg:mx-0 px-5 items-center gap-20">
                 <div className="w-full">
                     <Image src="/website.gif" alt='baner logo' width={600} height={600} className="w-[150%]" />
                 </div>
@@ -26,10 +26,10 @@ export default function Header() {
                     </div>
                     <p className="text-sm text-white ">Empowering innovation, igniting future leaders. Teknofest Pakistan  where technology meets limitless possibilities
                         <div className="grid grid-cols-2 lg:text-sm  text-[10px]  justify-center mt-5 gap-5">
-                            <button className="text-white bg-blue-900 shadow-xl rounded-md lg:p-4 p-2 lg:w-44 w-32">BOOKKARU</button>
-                            <button className="text-white bg-blue-900 shadow-xl rounded-md lg:p-4 p-2 lg:w-52  w-32">GRab your Pass</button>
-                            <button className="text-white bg-blue-900 shadow-xl rounded-md lg:p-4 p-2 lg:w-44 w-32">SEE COMPETETIONS</button>
-                            <button className="text-white bg-blue-900 shadow-xl rounded-md lg:p-4 p-2 lg:w-52  w-32">PROJECT REGSITRATION</button>
+                            <button className="text-white bg-blue-900 shadow-xl rounded-md lg:p-4 p-2 lg:w-44 gradient font-bold w-32">BOOKKARU</button>
+                            <button className="text-white bg-blue-900 shadow-xl rounded-md lg:p-4 p-2 lg:w-52 gradient font-bold  w-32">Grab your Pass</button>
+                            <button className="text-white bg-blue-900 shadow-xl rounded-md lg:p-4 p-2 lg:w-44 gradient font-bold w-32">SEE COMPETETIONS</button>
+                            <button className="text-white bg-blue-900 shadow-xl rounded-md lg:p-4 p-2 lg:w-52 gradient font-bold  w-32">PROJECT REGSITRATION</button>
                         </div>
                         </p>
                 </div>

@@ -33,7 +33,7 @@ const counts = [{
 
 export default function page() {
   return (
-    <div className="flex flex-col py-[50px] text-white  bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% h-full">
+    <div className="flex mb-20 flex-col py-[50px] text-white  gradient h-full">
       {/* ANIMTATED NUMBER COUNTERS */}
 
       <div className="flex flex-wrap justify-evenly md:pt-[50px] font-[Poppins]">
@@ -67,16 +67,16 @@ export default function page() {
 
       {/* LIST ITEMS */}
 
-      <div class=" flex flex-col mt-[50px]   self-center rounded-lg lg:w-1/3 items-center shadow-2xl">
+      <div class=" flex flex-col mt-[50px]  gradient text-white self-center rounded-lg lg:w-1/3 items-center shadow-2xl">
         <nav class="flex min-w-[240px] flex-col gap-1 py-1.5">
           {competions.map((items,index) => {
             return (
               <div
               key={index}
                 role="button"
-                class="font-semibold text-slate-800 flex w-full items-center p-3 transition-all gap-3 hover:text-sky-800  focus:bg-emerald-600 "
+                class="font-semibold text-white flex w-full items-center p-3 transition-all gap-3 hover:underline  focus:bg-emerald-600 "
               >
-                <FiCheckSquare className="md:bg-sky-500" />
+                <FiCheckSquare className="text-white text-2xl " />
                 {items}
               </div>
             );
