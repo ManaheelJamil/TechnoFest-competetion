@@ -45,11 +45,11 @@ export default function Navbar() {
                     <div className="gradient fixed top-28   left-0 right-0 z-40 py-10">
 
                         <ul className="text-center space-y-5 ">
-                            <li className="text-xl text-white font-bold " onClick={handleCLose}><Link href="/">Home</Link></li>
-                            <li className="text-xl text-white font-bold " onClick={handleCLose}><Link href="/About">About us </Link></li>
-                            <li className="text-xl text-white font-bold " onClick={handleCLose}><Link href="/Comptetion">Competetion</Link></li>
-                            <li className="text-xl text-white font-bold " onClick={handleCLose}><Link href="">Medcon</Link></li>
-                            <li className="text-xl text-white font-bold " onClick={handleCLose}><Link href="">Contact us</Link></li>
+                            <li className="text-xl text-white font-bold " ><Link href="/">Home</Link></li>
+                            <li className="text-xl text-white font-bold " ><Link href="/About">About us </Link></li>
+                            <li className="text-xl text-white font-bold " ><Link href="/Comptetion">Competetion</Link></li>
+                            <li className="text-xl text-white font-bold " ><Link href="">Medcon</Link></li>
+                            <li className="text-xl text-white font-bold " ><Link href="">Contact us</Link></li>
                         </ul>
                     </div>
                 </div>
