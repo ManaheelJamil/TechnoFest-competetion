@@ -1,21 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
-import { FaArrowRightLong } from "react-icons/fa6";
-import Image from 'next/image';
-
-const card_detail = [
-    {
-        img: "/grab.png",
-        title: "Grab Your Pass",
-        description: "Grab Your Pass",
-        Link: "https://www.teknofestpakistan.com/grab-your-pass"
-    },
-]
 
 export const Discover = () => {
     return (
         <div className='flex flex-col md:flex-row px-6'>
-            
             <div className="flex flex-wrap gap-5 w-[55%]">
                 <div className="flex flex-col flex-wrap gap-3">
                     <div className="flex flex-col bg-white shadow-sm border border-slate-200 rounded-lg my-6 w-[270px]">
